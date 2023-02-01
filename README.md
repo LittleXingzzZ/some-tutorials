@@ -144,6 +144,11 @@ cd trojan/
 ## 解压文件
     
     unzip trojan-go-linux-amd64.zip
+
+##  创建 trojan.json
+
+
+    touch trojan.json
     
 ### trojan配置文件：
 ```
@@ -151,7 +156,7 @@ cd trojan/
     "run_type": "server",
     "local_addr": "0.0.0.0",
     "local_port": 443,
-    "remote_addr": "192.83.167.78",
+    "remote_addr": "192.168.1.1",
     "remote_port": 80,
     "password": [
         "your_awesome_password"
