@@ -145,7 +145,7 @@ cd trojan/
     
     unzip trojan-go-linux-amd64.zip
 
-##  创建 trojan.json
+##  创建 config.json
 
 
     touch trojan.json
