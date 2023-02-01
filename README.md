@@ -132,8 +132,20 @@ location /ray {   #分流路径
 ```
 ***
 ## Trojan
-### trojan配置文件：
+## 新建trojan
+```
+    mkdir trojan
+    cd trojan/
+```
+## 下载trojan-go
 
+    wegt https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip
+    
+## 解压文件
+    
+    unzip trojan-go-linux-amd64.zip
+    
+### trojan配置文件：
 ```
 {
     "run_type": "server",
