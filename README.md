@@ -139,7 +139,7 @@ cd trojan/
 ```
 ## 下载trojan-go
 
-    wegt https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip
+    wget https://github.com/p4gefau1t/trojan-go/releases/download/v0.10.6/trojan-go-linux-amd64.zip
     
 ## 解压文件
     
