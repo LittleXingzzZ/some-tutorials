@@ -134,8 +134,8 @@ location /ray {   #分流路径
 ## Trojan
 ## 新建trojan
 ```
-    mkdir trojan
-    cd trojan/
+mkdir trojan
+cd trojan/
 ```
 ## 下载trojan-go
 
