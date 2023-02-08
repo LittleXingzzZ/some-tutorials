@@ -12,10 +12,10 @@ cd trojan/
     
     unzip trojan-go-linux-amd64.zip
 
-##  创建 config.json
+##  创建 server.json
 
 
-    touch trojan.json
+    touch server.json
     
 ### trojan配置文件：
 ```
@@ -31,9 +31,23 @@ cd trojan/
     "ssl": {
         "cert": "server.crt",
         "key": "server.key"
+    },
+    "api": {
+        "enabled": true,
+        "api_addr": "0.0.0.0",
+        "api_port": 10000,
+        "ssl": {
+            "enabled": false,
+            "key": "server.key",
+            "cert": "server.crt",
+            "verify_client": false,
+            "client_cert": []   # 可不写
+            }
     }
 }
 ```
+### 启动服务端
+    ./trojan-go -config ./server.json
 ***
 ## 申请证书：
 
