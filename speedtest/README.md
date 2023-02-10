@@ -1,5 +1,4 @@
 # Speedtest
-
 ***
 ## 安装php或者nginx和apache任何一个
   sudo apt install php nginx apache
