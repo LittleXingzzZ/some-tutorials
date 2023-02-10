@@ -1,6 +1,6 @@
 # Speedtest
 ***
-### 安装php或者nginx和apache任何一个
+## 安装php或者nginx和apache任何一个
   sudo apt install php nginx apache
 ## git speedtest
   git clone https://github.com/adolfintel/speedtest.git
@@ -20,4 +20,3 @@
   sudo mv example-singleServer-pretty.html index.html
 ## 更改
   sudo chown -R www-data *
-
