@@ -3,6 +3,7 @@
 ***
 ## 安装php或者nginx和apache任何一个
   sudo apt install php nginx apache
+  
 ## git speedtest
   git clone https://github.com/adolfintel/speedtest.git
 ## 进入speedtest文件夹
