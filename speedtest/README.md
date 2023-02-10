@@ -1,21 +1,23 @@
 # Speedtest
+
 ***
-```
-# sudo apt install php nginx apache
 
-# cd /speedtest
+  sudo apt install php nginx apache
 
-# ls -la
+  git clone https://github.com/adolfintel/speedtest.git
 
-# sudo cp -R backend example-singleServer-pretty.html *.js /var/www/html/
+  cd /speedtest
 
-# sudo cp -R backend example-singleServer-pretty.html *.js /var/www/html/
+  ls -la
 
-# cd /var/www/html
+  sudo cp -R backend example-singleServer-pretty.html *.js /var/www/html/
 
-# ls -la
+  sudo cp -R backend example-singleServer-pretty.html *.js /var/www/html/
 
-# sudo mv example-singleServer-pretty.html index.html
+  cd /var/www/html
 
-# sudo chown -R www-data *
-```
+  ls -la
+
+  sudo mv example-singleServer-pretty.html index.html
+
+  sudo chown -R www-data *
